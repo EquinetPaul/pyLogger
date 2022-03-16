@@ -1,0 +1,2 @@
+# pyLogs
+Simple Python Logger

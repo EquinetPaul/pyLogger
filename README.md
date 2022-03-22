@@ -1,4 +1,4 @@
-# pyLogs
+# pyLogger
 Simple Python Logger
 
 ## How To Use

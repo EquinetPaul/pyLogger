@@ -14,9 +14,15 @@ import pyLogs as l
 ```
 - Enjoy!
 
-# Features
-- Call the function "l" to display your logs with or without date and with type of logs
-- l("Message to Log", "LogType")
+## Features
+- Different type of logs
+- Display Date and/or Time
+
+## Parameters
+```sh
+l("Message to Log", "LogType")
+```
+#### LogType
 - Default (d)
 - Succes (s)
 - Success2 (s2)
@@ -41,3 +47,5 @@ l.l("TITLE", "t")
 
 ### Why?
 Better and more beautiful than a simple print (and with date and color!!!)
+### To Do
+- Save logs into files

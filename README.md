@@ -48,4 +48,4 @@ l.l("TITLE", "t")
 ### Why?
 Better and more beautiful than a simple print (and with date and color!!!)
 ### To Do
-- Save logs into files
+- Save logs into files (done)

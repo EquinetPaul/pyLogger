@@ -1,8 +1,12 @@
+# https://github.com/EquinetPaul/pyLogger
+
 from time import strftime
 
 ### CONFIG
 display_time = True
 display_date_time = True
+save_in_file = True
+file_name = "logs.txt"
 
 class bc:
     HEADER = '\033[95m'
@@ -44,5 +48,11 @@ def l(msg, type):
         toDisplay += str(time) + " "
 
     toDisplay += str(msg) + bc.ENDC
+
+    if save_in_file:
+        to_write = "[" + type + "] " + str(time) + " " + str(msg)
+        file = open(file_name, "a")
+        file.write(to_write+"\n")
+        file.close()
 
     print(str(toDisplay))

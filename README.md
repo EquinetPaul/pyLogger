@@ -17,6 +17,7 @@ import pyLogs as l
 ## Features
 - Different type of logs
 - Display Date and/or Time
+- Write logs in a file
 
 ## Parameters
 ```sh
